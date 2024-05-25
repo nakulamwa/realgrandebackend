@@ -24,7 +24,7 @@ const db = module.exports =async ()=>{
     console.log("MongoDB Connection is Successful")
   } catch(error){
     console.log(error);
-    console.log("MongoDB Connection is failed")
+    console.log("MongoDB Atlas Connection is failed")
   } 
 }
 db();
